@@ -1,1 +1,1 @@
-# react-lib-scripts
+# lib-scripts
