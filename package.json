@@ -1,0 +1,29 @@
+{
+  "name": "@jomaxx/lib-scripts",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomaxx/lib-scripts.git"
+  },
+  "author": "Jo Maxx <jo.maxx.blake@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jomaxx/lib-scripts/issues"
+  },
+  "homepage": "https://github.com/jomaxx/lib-scripts#readme",
+  "files": ["bin, config, scripts"],
+  "bin": {
+    "jomaxx-lib": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
