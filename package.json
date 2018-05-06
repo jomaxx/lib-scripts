@@ -12,9 +12,7 @@
     "url": "https://github.com/jomaxx/lib-scripts/issues"
   },
   "homepage": "https://github.com/jomaxx/lib-scripts#readme",
-  "files": [
-    "bin, config, scripts"
-  ],
+  "files": ["bin", "config", "scripts"],
   "bin": {
     "jomaxx-lib": "bin/index.js"
   },
